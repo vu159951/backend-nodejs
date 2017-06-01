@@ -1,0 +1,35 @@
+{
+  "name": "rest-apis-assignment",
+  "version": "1.0.0",
+  "description": "REST APIs",
+  "main": "src/server.js",
+  "author": "coe@kms-technology.com",
+  "license": "(C) 2016 KMS Technology",
+  "scripts": {
+    "serve": "./node_modules/.bin/babel-node ./src/server.js",
+    "esdoc": "./node_modules/.bin/esdoc -c esdoc.json"
+  },
+  "dependencies": {
+    "core-decorators": "^0.12.3",
+    "koa": "^2.0.0-alpha.5",
+    "koa-bodyparser": "^2.2.0",
+    "koa-jwt": "^1.2.0",
+    "koa-router": "^5.4.0",
+    "koa-socket": "^4.4.0",
+    "koa-static-folder": "^0.1.6",
+    "koa-unless": "^1.0.0",
+    "koa.io": "0.0.3",
+    "lodash": "^4.14.2",
+    "lokijs": "^1.4.1",
+    "recursive-readdir-sync": "^1.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-3": "^6.5.0",
+    "esdoc": "^0.4.8",
+    "esdoc-es7-plugin": "0.0.3"
+  }
+}
